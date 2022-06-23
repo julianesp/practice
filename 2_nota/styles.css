@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: #bababa;
+}
+h1 {
+    font-size: 3rem;
+    color: #fff;   
+}
+
+#test {
+    border: 2px solid #fff;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#test label {
+    color: #fff;
+    font-size: 2rem;                
+}
+#test input {
+    margin: 20px auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+#test button {
+    height: 50px;
+}
+.swal-footer {
+    text-align: center;
+}
+.swal-text:first-child {
+    text-align: center;    
+}

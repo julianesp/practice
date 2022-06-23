@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(226, 224, 223, .5);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: darkorange;
+}
+
+.exercises {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.exercises form {
+    display: flex;
+    flex-direction: column;
+}
+
+.exercises .botones {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* estilos para swal */
+
+.swal-footer {
+    text-align: center;
+}
+
+.exercises .botones button {
+    padding: 10px;
+}
+
+.exercises #operaciones {
+    margin-top: 30px;
+}
+
+.exercises #operaciones input {
+    /* text-align: center; */
+    margin: 20px auto;
+}
+
+.exercises form input {
+    width: 120px;
+    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.exercises form button {
+    width: 100px;
+    height: 50px;
+}

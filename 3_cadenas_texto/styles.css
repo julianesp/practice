@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #bababa;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+#test {
+    border: 2px solid #fff;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#test label {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#test input {
+    margin: 20px -15px;
+    height: 100px;
+    width: 250px;
+    text-align: left;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+#test button {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.swal-footer {
+    text-align: center;
+}
+
+.swal-text:first-child {
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #e9e1e1;
+}
+
+#conducir {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conducir label {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(65, 179, 255);
+    font-weight: 800;
+    text-align: center;
+}
+#conducir input {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 50px;
+    text-align: center;    
+}
+
+#conducir button {
+    height: 40px;
+}
