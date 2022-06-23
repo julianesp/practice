@@ -21,7 +21,7 @@ function sumar() {
     var v2 = n2
 
     var res = v1 + v2
-    swal("La suma es " + res)
+    swal("La suma es de " + v1 + " + " + v2 + " es: " + res)
 
     if (v1 && v2 == null) {
         swal("vacio")
@@ -52,7 +52,7 @@ function restar() {
     var v2 = n2
 
     var res = v1 - v2
-    swal("La resta es " + res)
+    swal("La resta de " + v1 + " - " + v2 + " es: " + res)
 }
 
 function multiplicar() {
@@ -63,7 +63,7 @@ function multiplicar() {
     var v2 = n2
 
     var res = v1 * v2
-    swal("La multiplicación es " + res)
+    swal("La multiplicación de " + v1 + " x " + v2 + " es: " + res)
 }
 
 function dividir() {
@@ -74,7 +74,7 @@ function dividir() {
     var v2 = n2
 
     var res = v1 / v2
-    swal("La división es igual a " + res)
+    swal("La división de " + v1 + " / " + v2 + " es: " + res)
 
     if (v2 == 0) {
         swal('No se puede dividir entre 0')
