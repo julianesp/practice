@@ -1,44 +1,38 @@
+//variable donde se guardarán los caracteres
+var texto = ""
+
+function save(params) {
+    var palabras = document.getElementById('mostrarPalabras')
+
+    do {
+        var cadena = prompt('Ingresa tus notas por guardar')
+
+        //si texto está vacío
+        if (texto == "") {
+            texto = texto + cadena
+        }
+        //si la variable texto no está vacía, la va a unir
+        //con los anteriores caracteres ingresados separándolos con
+        //dos barras
+        else {
+            texto = texto + ' || ' + cadena
+        }
+        /**
+         * TODO ESTO SE CUMPLE SI LE DOY EN EL BOTÓN ACEPTAR
+         */
+    }
+    //si pulsa en aceptar sigue la ejecución del programa
+    while (confirm('Vas a seguir guardando más caracteres?'));
+    //se pulsa en cancelar, se imprime lo que ha ingresado
+    document.write(texto)
+}
+
 /**
- * Cuando da clic sobre este botón, esa
- * palabra se va a guardar en un array
- * que será llamado desde la función
- * concatString() para juntarla con las
- * demás palabras
+ * Cuando se presione el boton cancelar, se sale del
+ * ingreso de caracteres para luego mostrar lo que
+ * tiene almacenado en el array vacío
  */
-function save(frase) {
-    //lo que se ingresa en el input se guarda en esa variable
-
-    let guardar = document.getElementById('save')
-
-    if (save == ) {
-
-    }
+function cancelar() {
+    setInterval(() => {}, 1500);
+    swal('Presionaste el botón cancelar')
 }
-
-function concatString() {
-
-    palabras = save()
-    swap(palabras)
-}
-
-//codigo copiado
-
-//variable para juntar las cadenas
-let cadenasJuntas = ""
-
-//bucle do-while para introducir varias cadenas
-do {
-    //se pide la cadena por el teclado
-    // var texto = document.getElementById('words')
-    var cadena = prompt('Ingresa la cadena')
-
-    //si cadenasJuntas está vacía
-    if (cadenasJuntas == null) {
-        cadenasJuntas = cadenasJuntas + cadena
-    } else {
-        //se une la cadena con la que ingresa
-        cadenasJuntas = cadenasJuntas + "-" + cadena
-    }
-} while (confirm('Desea seguir?'));
-
-document.write(cadenasJuntas)

@@ -23,7 +23,7 @@ function sumar() {
     var res = v1 + v2
     swal("La suma es de " + v1 + " + " + v2 + " es: " + res)
 
-    if (v1 && v2 == null) {
+    if ((v1 && v2).valueOf == null) {
         swal("vacio")
 
     }
