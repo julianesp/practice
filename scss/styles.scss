@@ -1,0 +1,33 @@
+@import './globals';
+@import './heredar';
+
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-primario;
+    border: 1px solid $color-primario;
+    border-radius: 20px;
+    width: max-content;
+    padding: 0 15px;
+    margin: 10px auto;
+}
+
+.practicing {
+    padding: 10px;
+    
+    & .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        & li {        
+            list-style: none;
+
+            & button {
+                margin-bottom: 5px;
+                width: 250px;
+                height: 35px;
+            }
+        }
+    }
+}

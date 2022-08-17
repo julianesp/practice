@@ -1,0 +1,19 @@
+{
+  "name": "ejerciciosprogramacion",
+  "version": "1.0.0",
+  "description": "Repasando diferentes ejercicios para aprender JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianesp/practice.git"
+  },
+  "author": "Alex España",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianesp/practice/issues"
+  },
+  "homepage": "https://github.com/julianesp/practice#readme"
+}

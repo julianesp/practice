@@ -7,39 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudiando JavaScript</title>
     <link rel="icon" href="./assets/img/js.ico">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./scss/styles.css">
 </head>
 
 <body>
-
-    <h1>JavaScript</h1>
+    <p>Practicando JavaScript</p>
 
     <section class="practicing">
-
-        <ol>
+        <ul class="contenedor">
             <li>
-                <a href="./1_mayorEdad/index.html">Permiso conducción</a>
+                <button onclick="conduccion()">Permiso conducción</button>
             </li>
             <li>
-                <a href="./2_nota/index.html">Rango de notas</a>
+                <button onclick="rangoNotas()">Rango de notas</button>
             </li>
             <li>
-                <a href="./3_cadenas_texto/index.html">Unir cadenas de texto</a>
+                <button onclick="cadenas()">Cadenas</button>
             </li>
             <li>
-                <a href="./4_operaciones_basicas/index.html">Operaciones básicas</a>
+                <button onclick="operacionesBasicas()">Operaciones básicas</button>
             </li>
             <li>
-                <a href="./5_numero_mayor/index.html">Número mayor (2 números)</a>
+                <button onclick="numeroMayor()">Número mayor (2)</button>
             </li>
             <li>
-                <a href="./6_numero_mayor/index.html">Número mayor (3 números)</a>
+                <button onclick="numeroMayorDos()">Número mayor (3)</button>
             </li>
             <li>
-                <a href="./7_numero_par/index.html">Número par</a>
+                <button onclick="numberPar()">Número par</button>
             </li>
-        </ol>
+            <li>
+                <button onclick="writeConsole()">Resultado console</button>
+            </li>
+        </ul>
     </section>
+
+    <script src="./js/functions.js"></script>
 </body>
 
 </html>

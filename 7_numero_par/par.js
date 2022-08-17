@@ -14,7 +14,5 @@ function calcular(params) {
     } else {
         swal('El número es impar')
     }
-    var residuo = numeroCaptado % 2
-    var cociente = numeroCaptado / 2
-    swal('El residuo de la division es ' + residuo + ' y el cociente de la division es ' + cociente)
+
 }

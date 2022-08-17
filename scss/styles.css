@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(52, 152, 219);
+  border: 1px solid rgb(52, 152, 219);
+  border-radius: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 15px;
+  margin: 10px auto;
+}
+
+.practicing {
+  padding: 10px;
+}
+.practicing .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.practicing .contenedor li {
+  list-style: none;
+}
+.practicing .contenedor li button {
+  margin-bottom: 5px;
+  width: 250px;
+  height: 35px;
+}/*# sourceMappingURL=styles.css.map */
