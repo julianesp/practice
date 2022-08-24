@@ -29,3 +29,7 @@ function numberPar(params) {
 function writeConsole(params) {
     location.href = '../8_document.write/index.html'
 }
+
+function game(params) {
+    location.href = '../12_gameAdivina/index.html'
+}
