@@ -1,5 +1,5 @@
 function conduccion(params) {
-    location.href = '../1_mayorEdad/index.html'
+    location.href = '1_mayorEdad/index.html'
 }
 
 function rangoNotas(params) {
