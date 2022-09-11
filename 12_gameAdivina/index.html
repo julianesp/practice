@@ -8,22 +8,41 @@
     <title>Adivina</title>
 </head>
 <body>
-    <h1>Adivina la palabra</h1>
+    <h1>Adivina la palabra</h1>    
+    <form action="">
+        <label for="letra">Ingrese una letra</label>
+        <input type="text" id="letra">        
+    </form>
+    <button onclick="adivinar()">Enviar</button>
 
+    <p>La letra será enviada a la función para que verifique
+        si está dentro de la palabra
+    </p>
+    <p>Se debe escoger la palabra que va a ser adivinada que estará en un arreglo</p>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- mostrando las pulsaciones sobre el botón update -->
     <button class="boton" onclick="update()" id="boton">
         <input type="text" class="input" id="conteo">
         <img src="./refresh.png" alt="">
     </button>
 
-    <!-- mostrando las pulsaciones sobre el botón update -->
-
-    <form action="">
-        <label for="">label</label>
-        <input type="text" placeholder="Ingrese la letra">        
-    </form>
-    <button>Enviar</button>
-
     <script src="./game.js"></script>
-    <script src="./actualizar.js"></script>
+    <!-- <script src="./actualizar.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
